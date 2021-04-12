@@ -1,0 +1,25 @@
+jekyll serve # 기본
+jekyll serve --livereload # 자동 새로고침
+jekyll serve --port 5000 # 수동으로 포트 지정
+
+
+bundle  exec jekyll serve # 기본2
+
+
+
+https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/#git-%EC%84%A4%EC%B9%98-%EB%B0%8F-clone
+http://jekyllrb-ko.github.io/docs/structure/
+
+
+노션에서 깃헙옮기기
+https://swieeft.github.io/2020/03/02/NotionToGithubioPorting.html
+https://bj25.tistory.com/14
+
+
+git add .
+git commit -m "메시지타입"
+git push origin master
+
+
+
+slug : tags이름임
