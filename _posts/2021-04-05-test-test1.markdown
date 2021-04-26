@@ -3,7 +3,7 @@ layout: post
 title:  "ML lecture summary"
 subtitle:   "인공지능응용시스템"
 categories: Test
-tags: review ML
+tags: test
 comments: true
 header-img: img/test/test1headerimg.png
 ---
