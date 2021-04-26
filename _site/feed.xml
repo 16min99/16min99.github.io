@@ -6,9 +6,74 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 27 Apr 2021 01:13:06 +0900</pubDate>
-    <lastBuildDate>Tue, 27 Apr 2021 01:13:06 +0900</lastBuildDate>
+    <pubDate>Tue, 27 Apr 2021 01:21:30 +0900</pubDate>
+    <lastBuildDate>Tue, 27 Apr 2021 01:21:30 +0900</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>cuda 프로그래밍 환경설정 [windows]</title>
+        <description>&lt;ul&gt;
+  &lt;li&gt;CUDA설치&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://developer.nvidia.com/cuda-downloads&quot;&gt;https://developer.nvidia.com/cuda-downloads&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;OS버전에 맞게 선택후 설치&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled.png&quot; alt=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;⇒ 설치시 빠른설치(권장) 선택후 디폴트 값으로 진행&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;비쥬얼 스튜디오 CUDA 프로젝트 만들기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;새 프로젝트 » 콘솔 앱&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%201.png&quot; alt=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%201.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;스튜디오 상단 디버그 x86에서 x64로 변경&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%202.png&quot; alt=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%202.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;프로젝트 우클릭 » 빌드 종속성 » 사용자 지정 빌드&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%203.png&quot; alt=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%203.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;쿠다 체크&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%204.png&quot; alt=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%204.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;프로젝트 우클릭 » 속성&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%205.png&quot; alt=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%205.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;링커 » 입력 » 추가 종속성 » cudart_static.lib; 추가&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%206.png&quot; alt=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%206.png&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;컴파일러 번경&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;소스코드 우클릭 » 속성&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%207.png&quot; alt=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%207.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;일반 » 항목형식 » CUDA C/C++&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%208.png&quot; alt=&quot;/assets/img/post_img/2021-04-22-etc-etc-cuda1/Untitled%208.png&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Apr 2021 00:00:00 +0900</pubDate>
+        <link>http://localhost:4000/etc/2021/04/22/etc-etc-cuda1/</link>
+        <guid isPermaLink="true">http://localhost:4000/etc/2021/04/22/etc-etc-cuda1/</guid>
+        
+        <category>etc</category>
+        
+        
+        <category>etc</category>
+        
+      </item>
     
       <item>
         <title>인공지능응용시스템LS2</title>
