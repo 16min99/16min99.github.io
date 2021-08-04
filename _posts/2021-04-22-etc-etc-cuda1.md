@@ -6,6 +6,7 @@ categories: etc
 tags: etc
 comments: true  
 ---
+>병렬 프로그래밍을 위한 cuda 설치 및 환경설정 포스팅
 
 - CUDA설치
 
