@@ -82,6 +82,8 @@ Powered by Hydejack v6.4.0 (https://qwtel.com/hydejack/)
 
 
 
+  <link rel="next" href="http://localhost:4000/ai/2021/06/21/AI-ML-AILS3/">
+
 
 <link rel="apple-touch-icon" href="http://localhost:4000/apple-touch-icon.png">
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
@@ -364,6 +366,22 @@ on <span>Etc</span>
       
       
         
+        
+          
+
+
+<li class="h4">
+  <a href="/etc/2021/08/04/etc-etc-gitignore/" data-flip="title">
+    <span>gitignore 사용</span>
+  </a>
+  <small><time datetime="2021-08-04T00:00:00+09:00">
+    04 Aug 2021
+  </time></small>
+</li>
+
+        
+      
+        
           
           
         
@@ -373,7 +391,7 @@ on <span>Etc</span>
 
 <li class="h4">
   <a href="/etc/2021/04/02/etc-etc-git1/" data-flip="title">
-    <span>왕초보를 위한 Git & b 가이드</span>
+    <span>왕초보를 위한 Git & gitHub 가이드</span>
   </a>
   <small><time datetime="2021-04-02T00:00:00+09:00">
     02 Apr 2021
@@ -390,16 +408,60 @@ on <span>Etc</span>
 
       
         <aside class="comments" role="complementary">
+  <!--
   <h2>Comments</h2>
   <hr/>
 
   <div id="disqus_thread"></div>
 
   <script>
-    !function(s,i){function e(e){var t=s.pageYOffset||i.body.scrollTop;s.DISQUS&&!s._disqusThis&&!s._disqusFirst&&t+s.innerHeight>=s._disqusThreadOffsetTop&&(s._disqusThis=!0,s.DISQUS.reset({reload:!0,config:d}))}var d=function(){this.page.title="cuda 프로그래밍 환경설정 [windows]",this.page.identifier="/etc/2021/04/22/etc-etc-cuda1",this.page.url="http://localhost:4000/etc/2021/04/22/etc-etc-cuda1/"};s._disqusFirst=void 0===s._disqusFirst||s._disqusFirst,s._disqusLoading=void 0!==s._disqusLoading&&s._disqusLoading,s._disqusThis=!1,s._disqusThreadOffsetTop=i.getElementById("disqus_thread").offsetTop,s._disqusLoading?s._disqusFirst=!1:(s._disqusLoading=!0,loadJSDeferred("//16min99-github-io.disqus.com/embed.js"),s.addEventListener?s.addEventListener("scroll",e,{passive:!0}):s.attachEvent?s.attachEvent("onscroll",e):s.onscroll=e)}(window,document);
+    // Compress via uglify:
+// uglifyjs load-disqus.js -c -m > load-disqus.min.js
+(function(w, d) {
+  var disqus_config = function () {
+    this.page.title = 'cuda 프로그래밍 환경설정 [windows]';
+    this.page.identifier = '/etc/2021/04/22/etc-etc-cuda1';
+    this.page.url = 'http://localhost:4000/etc/2021/04/22/etc-etc-cuda1/';
+  };
+
+  w._disqusFirst = typeof w._disqusFirst != 'undefined' ? w._disqusFirst : true;
+  w._disqusLoading = typeof w._disqusLoading != 'undefined' ? w._disqusLoading : false;
+  w._disqusThis = false;
+  w._disqusThreadOffsetTop = d.getElementById('disqus_thread').offsetTop;
+
+  function loadDQ(e) {
+    var scrollTop = w.pageYOffset || d.body.scrollTop;
+    if ( w.DISQUS &&
+        !w._disqusThis &&
+        !w._disqusFirst &&
+        scrollTop + w.innerHeight >= w._disqusThreadOffsetTop) {
+
+      w._disqusThis = true;
+      w.DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    }
+  };
+
+  if (!w._disqusLoading) {
+    w._disqusLoading = true;
+
+    loadJSDeferred('//16min99-github-io.disqus.com/embed.js');
+
+    // add event listener
+    if (w.addEventListener) w.addEventListener('scroll', loadDQ, { passive: true });
+    else if (w.attachEvent) w.attachEvent('onscroll', loadDQ);
+    else w.onscroll = loadDQ;
+  } else {
+    w._disqusFirst = false;
+  }
+}(window, document));
 
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  -->
+
 </aside>
 
       
@@ -470,8 +532,29 @@ on <span>Etc</span>
     <li>
       <input type="checkbox" id="list-item-1"/>
       <div  class="list-wrapper">
+      <a class="sidebar-nav-item" href="/category/java/"><b>JAVA</b></a>
+       
+    </div>
+     <ul class="list-body">
+       
+           
+         
+           
+         
+           
+         
+           
+         
+     </ul>
+    </li>
+
+  
+  
+    <li>
+      <input type="checkbox" id="list-item-2"/>
+      <div  class="list-wrapper">
       <a class="sidebar-nav-item" href="/category/cs/"><b>CS</b></a>
-       <label class="folder" for="list-item-1">▾</label>
+       <label class="folder" for="list-item-2">▾</label>
     </div>
      <ul class="list-body">
        
@@ -497,10 +580,10 @@ on <span>Etc</span>
   
   
     <li>
-      <input type="checkbox" id="list-item-2"/>
+      <input type="checkbox" id="list-item-3"/>
       <div  class="list-wrapper">
       <a class="sidebar-nav-item" href="/category/ai/"><b>AI</b></a>
-       <label class="folder" for="list-item-2">▾</label>
+       <label class="folder" for="list-item-3">▾</label>
     </div>
      <ul class="list-body">
        
@@ -522,7 +605,7 @@ on <span>Etc</span>
   
   
     <li>
-      <input type="checkbox" id="list-item-3"/>
+      <input type="checkbox" id="list-item-4"/>
       <div  class="list-wrapper">
       <a class="sidebar-nav-item" href="/category/etc/"><b>etc</b></a>
        
@@ -543,7 +626,7 @@ on <span>Etc</span>
   
   
     <li>
-      <input type="checkbox" id="list-item-4"/>
+      <input type="checkbox" id="list-item-5"/>
       <div  class="list-wrapper">
       <a class="sidebar-nav-item" href="/category/test/"><b>Test</b></a>
        
