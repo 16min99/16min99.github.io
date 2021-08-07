@@ -24,23 +24,28 @@ class myClass extends Object{
     //...
 }
 ```  
-- Object클래스에 인스턴스가 가져야 할 기본적인 (9+2)개의 메서드가 정의되어 있음 ( 가장 기본인 java.lang패키지 )   
+- Object클래스에 인스턴스가 가져야 할 기본적인 (9+2)개의 메서드가 정의되어 있음 ( 가장 기본인 java.lang패키지 ) 
 <br/>  
 
+### Object의 메소드 정리  
 
-|Object 메소드|설명|사용|   
-|---|---|---|  
-|**clone()**| 객체 자신의 복사본을 반환|protected Object clone|  
+
+|메소드|설명|사용|  
+|:--- | :--- | --- |  
+|**clone()**| 객체 자신의 복사본을 반환|protected Object clone()|  
 |**equals()**| 서로 같은 객체인지 확인 |public boolean equals(Object obj)|
 |**getClass()**| 클래스 정보를 담고 있는 class 인스턴스를 반환 |public Class getClass()|
 |**hashCode()**| 해시코드(메모리 주소값을 변환한 것)를 반환|public int hashCode()|  
 |**toString()**| 정보를 문자열로 반환 |public String toString()|  
-|finalize()| 객체 소멸시 GC에 의해 자동적으로 호출됨, 오버라이딩 해서 씀 |protected void finalize()|  
+|finalize()| GC에 의해 자동적으로 호출됨, 오버라이딩해서 사용 |protected void finalize()|  
 |notify()|현재 객체를 사용하려고 기다리는 쓰레드를 하나만 깨움|pubilc void notify()|  
 |notifyAll()|현재 객체를 사용하려고 기다리는 모든 쓰레드를 깨움|pubilc void notifyAll()|  
-|wait()|다른 쓰레드가 notify(),notifyAll()을 통해 깨우거나 인터럽트, 타임아웃등으로 깨울때 까지 기다리게 함 |pubilc void wait()|
+|wait()|다른 쓰레드가 notify(),notifyAll()을 통해 깨우거나 인터럽트, 타임아웃등으로 깨울때 까지 기다리게 함 |pubilc void wait()|  
+
 * GC(Garbage Collection) : 프로그램이 동적으로 할당했던 메모리 영역 중에서 필요없게 된 영역을 해제하는 기능  
-* wait()는 2개가 추가로 오버로딩 되어있음 → public void wait(long timeout), public void wait(long timeout,int nanos)   
+* wait()는 2개가 추가로 오버로딩 되어있음 → public void wait(long timeout), public void wait(long timeout,int nanos)     
+  
+  
 <br/>  
 
 
